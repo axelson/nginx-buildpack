@@ -79,7 +79,7 @@ $ heroku config:set NGINX_WORKERS=8
 Customizable NGINX Config
 -------------------------
 
-You can provide your own NGINX config by creating a file named `config/nginx.conf.erb` in your app. Start by copying the buildpack's [default config file](https://raw.githubusercontent.com/agriffis/nginx-buildpack/develop/config/nginx.conf.erb).
+You can provide your own NGINX config by creating a file named `config/nginx.conf.erb` in your app. Start by copying the buildpack's [default config file](/master/config/nginx.conf.erb).
 
 Alternatively, if you like the defaults, you can add a file `config/nginx-local.conf` and it will be included automatically.
 
